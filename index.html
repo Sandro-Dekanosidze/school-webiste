@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+</head>
+<body class="login-layout">
+    
+    <div id="app">
+        <!-- Auth Section -->
+        <div id="auth-section" class="auth-container">
+            <div class="auth-card glass animate-fade-in">
+                <div class="brand">
+                    <i class="fas fa-school logo-icon"></i>
+                    <h1 class="school-name">School</h1>
+                </div>
+                <h2>მოგესალმებით</h2>
+                <p class="subtitle">გთხოვთ, შეიყვანოთ თქვენი მონაცემები პორტალზე დასაშვებად.</p>
+                
+                <form id="login-form">
+                    <div class="input-group">
+                        <label for="email">ელ-ფოსტა</label>
+                        <input type="email" id="email" class="input-field" placeholder="Enter E-mail"  required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">პაროლი</label>
+                        <input type="password" id="password" class="input-field" placeholder="Enter Password" required>
+                    </div>
+                    <button type="submit" class="button-primary w-full">შესვლა</button>
+                    <div id="login-error" class="error-text"></div>
+                </form>
+            </div>
+        </div>
+
+        
+        <div id="dashboard-section" class="dashboard-container" style="display: none;">
+        </div>
+
+      <div id="modal-container" class="modal-overlay">
+            <div class="modal-content animate-fade-in">
+                <div class="modal-header">
+                    <h2 id="modal-title">დამატება</h2>
+                    <button class="btn-icon" onclick="closeModal()"><i class="fas fa-times"></i></button>
+                </div>
+                <div id="modal-body">
+
+                </div>
+                <div style="margin-top: 20px; display: flex; gap: 10px; justify-content: flex-end;">
+                    <button class="button-secondary" onclick="closeModal()">გაუქმება</button>
+                    <button id="modal-submit-btn" class="button-primary">შენახვა</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
