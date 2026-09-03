@@ -4,7 +4,7 @@
 
 :root {
   /* Light Theme (Default) */
-  --primary: #10b981;
+  --primary: green;
   --primary-hover: #059669;
   --primary-soft: rgba(16, 185, 129, 0.1);
   --bg-main: #0a0b0f;
@@ -46,7 +46,7 @@
     --bg-main: #0a0b0f;
     --bg-card: rgba(255, 255, 255, 0.03);
     --text-main: #ffffff;
-    --text-secondary: #94a3b8;
+    --text-secondary: #6992ca;
     --border-light: rgba(255, 255, 255, 0.08);
     --glass-blur: blur(12px);
     --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -101,21 +101,21 @@ h4,
 
 /* Glassmorphism utility */
 .glass {
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: var(--border-light);
+    background: rgba(102, 4, 4, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: var(--border-light);
 }
 
 .button-primary {
-  background: var(--primary);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: var(--border-radius);
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    background: var(--primary);
+    color: rgb(180, 16, 16);
+    border: none;
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .button-primary:hover {
@@ -155,14 +155,14 @@ h4,
 }
 
 .input-field {
-  background: var(--bg-inputs);
-  border: var(--border-light);
-  color: white;
-  padding: 12px 16px;
-  border-radius: 10px;
-  width: 100%;
-  margin-bottom: 20px;
-  outline: none;
+    background: var(--bg-inputs);
+    border: var(--border-light);
+    color: rgb(56, 53, 53);
+    padding: 12px 16px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
 }
 
 .input-field:focus {
@@ -525,18 +525,18 @@ h4,
 
 /* Certificate Preview Modal */
 .certificate-view {
-  padding: 40px;
-  background: #fff;
-  color: #000;
-  border: 15px double #d4af37;
-  text-align: center;
-  font-family: "Outfit", sans-serif;
+    padding: 40px;
+    background: #fff;
+    color: #000;
+    border: 15px double #4e37d4;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 .certificate-view h1 {
-  color: #d4af37;
-  font-size: 3rem;
-  text-transform: uppercase;
+    color: #4616f1;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 /* Study Materials Cards */
@@ -551,9 +551,9 @@ h4,
 }
 
 .whatsapp-link {
-  color: #25d366;
-  font-size: 1.2rem;
-  transition: transform 0.2s;
+    color: #02461b;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
 }
 
 .whatsapp-link:hover {
