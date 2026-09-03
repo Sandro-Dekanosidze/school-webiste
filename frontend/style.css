@@ -3,7 +3,7 @@
 :root {
     /* Light Theme (Default) */
     --primary: #10b981;
-    --primary-hover: red;
+    --primary-hover: #059669;
     --primary-soft: rgba(16, 185, 129, 0.1);
     --bg-main: #0a0b0f;
     --bg-card: rgba(255, 255, 255, 0.03);
@@ -17,13 +17,13 @@
     --primary: #17c964; /* Emerald Lightish Green */
     --primary-solid: #0e8d42;
     --primary-soft: rgba(23, 201, 100, 0.1);
-    
+      
     /* Premium Neutrals */
     --bg-main: #0a0b0d; /* Deep dark background */
     --bg-card: #15181c; /* Lighter dark for cards */
     --bg-inputs: #1e2229;
     
-    --text-primary: orange;
+    --text-primary: #ffffff;
     --text-secondary: #94a3b8;
     --text-muted: #64748b;
     
