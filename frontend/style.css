@@ -114,7 +114,9 @@ h1, h2, h3, h4, .title-font {
 .input-field {
     background: var(--bg-inputs);
     border: var(--border-light);
-    color: white;
+    color: rgb(89, 26, 206);
+
+
     padding: 12px 16px;
     border-radius: 10px;
     width: 100%;
