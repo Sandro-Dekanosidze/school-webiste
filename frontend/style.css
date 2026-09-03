@@ -62,7 +62,7 @@ h1, h2, h3, h4, .title-font {
 
 /* Glassmorphism utility */
 .glass {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(102, 4, 4, 0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: var(--border-light);
@@ -504,7 +504,7 @@ h1, h2, h3, h4, .title-font {
 }
 
 .whatsapp-link {
-    color: #25d366;
+    color: #02461b;
     font-size: 1.2rem;
     transition: transform 0.2s;
 }
