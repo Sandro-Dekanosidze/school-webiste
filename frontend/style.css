@@ -1,42 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap");
 
+
+
 :root {
-  /* Light Theme (Default) */
-  --primary: #10b981;
-  --primary-hover: #059669;
-  --primary-soft: rgba(16, 185, 129, 0.1);
-  --bg-main: #0a0b0f;
-  --bg-card: rgba(255, 255, 255, 0.03);
-  --text-main: #ffffff;
-  --text-secondary: #94a3b8;
-  --border-light: rgba(255, 255, 255, 0.08);
-  --glass-blur: blur(12px);
-  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
+    /* Light Theme (Default) */
+    --primary: #10b981;
+    --primary-hover: #059669;
+    --primary-soft: rgba(16, 185, 129, 0.1);
+    --bg-main: #0a0b0f;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --text-main: #ffffff;
+    --text-secondary: #94a3b8;
+    --border-light: rgba(255, 255, 255, 0.08);
+    --glass-blur: blur(12px);
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
 
-  /* Primary Color: Inspired by reference image */
-  --primary: #17c964; /* Emerald Lightish Green */
-  --primary-solid: #0e8d42;
-  --primary-soft: rgba(23, 201, 100, 0.1);
 
-  /* Premium Neutrals */
-  --bg-main: #0a0b0d; /* Deep dark background */
-  --bg-card: #15181c; /* Lighter dark for cards */
-  --bg-inputs: #1e2229;
-
-  --text-primary: black;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-
-  --accent: #0070f3;
-  --danger: #f31260;
-
-  --shadow-soft:
-    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-premium:
-    0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-
-  --border-radius: 12px;
-  --border-light: 1px solid rgba(255, 255, 255, 0.08);
+    /* Primary Color: Inspired by reference image */
+    --primary: #17c964; /* Emerald Lightish Green */
+    --primary-solid: #0e8d42;
+    --primary-soft: rgba(23, 201, 100, 0.1);
+    
+    
+    /* Premium Neutrals */
+    --bg-main: #0a0b0d; /* Deep dark background */
+    --bg-card: #15181c; /* Lighter dark for cards */
+    --bg-inputs: #1e2229;
+    
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    
+    --accent: #0070f3;
+    --danger: #f31260;
+    
+    --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-premium: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+    
+    --border-radius: 12px;
+    --border-light: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 * {
