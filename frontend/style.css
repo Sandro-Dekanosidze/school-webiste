@@ -4,7 +4,7 @@
 
 :root {
   /* Light Theme (Default) */
-  --primary: #10b981;
+  --primary: green;
   --primary-hover: #059669;
   --primary-soft: rgba(16, 185, 129, 0.1);
   --bg-main: #0a0b0f;
