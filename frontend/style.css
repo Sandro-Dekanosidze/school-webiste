@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
 
+
+
 :root {
     /* Light Theme (Default) */
     --primary: #10b981;
@@ -13,10 +15,12 @@
     --glass-blur: blur(12px);
     --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.3);
 
+
     /* Primary Color: Inspired by reference image */
     --primary: #17c964; /* Emerald Lightish Green */
     --primary-solid: #0e8d42;
     --primary-soft: rgba(23, 201, 100, 0.1);
+    
     
     /* Premium Neutrals */
     --bg-main: #0a0b0d; /* Deep dark background */
